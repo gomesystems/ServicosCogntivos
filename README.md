@@ -1,3 +1,5 @@
+SDK .NET 6 - Console Aplication , Azure 
+
 # ServicosCogntivos
 Speech e Translate
 
