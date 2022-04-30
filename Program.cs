@@ -1,8 +1,5 @@
-﻿using System;
-using System.Net.Http;
+﻿using Newtonsoft.Json; // Install Newtonsoft.Json with NuGet
 using System.Text;
-using System.Threading.Tasks;
-using Newtonsoft.Json; // Install Newtonsoft.Json with NuGet
 
 class Program
 {
@@ -13,7 +10,7 @@ class Program
     // This is required if using a Cognitive Services resource.
     private static readonly string location = "eastus2";
     
-    static async Task Main(string[] args)
+    static async Task Main2(string[] args)
     {
         // Output languages are defined as parameters, input language detected.
         string route = "/translate?api-version=3.0&to=de&to=it";
